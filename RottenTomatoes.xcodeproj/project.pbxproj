@@ -14,6 +14,7 @@
 		9C8BD4031A82DDEA00284B01 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9C8BD4011A82DDEA00284B01 /* LaunchScreen.xib */; };
 		9C8BD40F1A82DDEA00284B01 /* RottenTomatoesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C8BD40E1A82DDEA00284B01 /* RottenTomatoesTests.swift */; };
 		9CBE2ABC1A834FB000F5E0FD /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CBE2ABB1A834FB000F5E0FD /* MovieCell.swift */; };
+		9CDABA271A84A849007664D8 /* MovieDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CDABA261A84A849007664D8 /* MovieDetailViewController.swift */; };
 		A23B649A4B62D890E0898B52 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 660F3DF73F20F87158BF0CA4 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -43,6 +44,7 @@
 		9C8BD40E1A82DDEA00284B01 /* RottenTomatoesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RottenTomatoesTests.swift; sourceTree = "<group>"; };
 		9CBE2AB41A834A7B00F5E0FD /* RottenTomatoes-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RottenTomatoes-Bridging-Header.h"; sourceTree = "<group>"; };
 		9CBE2ABB1A834FB000F5E0FD /* MovieCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
+		9CDABA261A84A849007664D8 /* MovieDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				9C0442EB1A8346ED0089C26F /* MoviesViewController.swift */,
 				9C8BD3F81A82DDEA00284B01 /* AppDelegate.swift */,
 				9C8BD3FC1A82DDEA00284B01 /* Main.storyboard */,
+				9CDABA261A84A849007664D8 /* MovieDetailViewController.swift */,
 				9C8BD3FF1A82DDEA00284B01 /* Images.xcassets */,
 				9C8BD4011A82DDEA00284B01 /* LaunchScreen.xib */,
 				9C8BD3F61A82DDEA00284B01 /* Supporting Files */,
@@ -276,6 +279,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9CDABA271A84A849007664D8 /* MovieDetailViewController.swift in Sources */,
 				9C8BD3F91A82DDEA00284B01 /* AppDelegate.swift in Sources */,
 				9C0442EC1A8346ED0089C26F /* MoviesViewController.swift in Sources */,
 				9CBE2ABC1A834FB000F5E0FD /* MovieCell.swift in Sources */,
