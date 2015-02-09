@@ -61,8 +61,9 @@ class MoviesViewController: UIViewController, UITableViewDataSource, UITableView
                 self.tableView.reloadData()
                 //            NSLog("Response : %@", responseDictionary)
                 
-                self.tableView.hidden = false
                 self.errorLabel.hidden = true
+                self.tableView.hidden = false
+                
             }
             else{
                 self.tableView.hidden = true
@@ -120,12 +121,6 @@ class MoviesViewController: UIViewController, UITableViewDataSource, UITableView
         
         vc.movies = self.movies
         vc.indexPath = indexPath
-     
-    
-        
-//        vc.titleLabel.text = movie["title"] as? String
-//        var url = movie.valueForKeyPath("posters.thumbnail") as String
-//        vc.moviePoster.setImageWithURL(NSURL(string: url))
         
         // Get the new view controller using segue.destinationViewController.
         // Pass the selected object to the new view controller.
