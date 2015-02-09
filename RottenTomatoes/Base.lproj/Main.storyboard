@@ -95,7 +95,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFill" id="Ep0-mv-OkP">
-                                <rect key="frame" x="0.0" y="65" width="320" height="1000"/>
+                                <rect key="frame" x="0.0" y="65" width="320" height="568"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <view alpha="0.64999999999999969" contentMode="scaleToFill" id="mjr-FL-R9s">
